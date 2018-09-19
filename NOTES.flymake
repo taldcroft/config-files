@@ -1,0 +1,15 @@
+http://docs.astropy.org/en/latest/development/codeguide_emacs.html#id1
+
+http://www.flycheck.org/en/latest/index.html
+
+Do the “try Flycheck in your Emac session” instructions.  The package-refresh-contents is important.
+
+Then in .emacs add:
+
+(add-hook 'python-mode-hook 'flycheck-mode)
+conda install flake8
+
+~/.config/flake8
+
+[flake8]
+max-line-length = 100
